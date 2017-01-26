@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.ccdle.christophercoverdale.hikerswatch.Fragments.HikersWatch">
+
+    <ImageView
+        android:src="@drawable/background_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/title_hikers_watch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="@string/hikers_watch"
+        android:textSize="@dimen/material_design_headline_textsize"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/latitude"
+        android:textSize="@dimen/material_design_title_textsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/longitude"
+        android:textSize="@dimen/material_design_title_textsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/accuracy"
+        android:textSize="@dimen/material_design_title_textsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/speed"
+        android:textSize="@dimen/material_design_title_textsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/bearing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/bearing"
+        android:textSize="@dimen/material_design_title_textsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/altitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/altitude"
+        android:textSize="@dimen/material_design_title_textsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/address"
+        android:textSize="@dimen/material_design_title_textsize"
+        android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>
